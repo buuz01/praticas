@@ -33,7 +33,11 @@ main {
     margin-bottom: 20px;
 }
 
-.loc {
+.rosto h2 {
+    margin-bottom: 5px;
+}
+
+.rosto h3 {
     color: chartreuse;
 }
 
@@ -41,7 +45,7 @@ main {
     border-radius: 100%;
     width: 90px;
     display: block;
-    margin: auto;
+    margin: 12px auto;
 }
 
 .redes {
