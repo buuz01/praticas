@@ -1,15 +1,28 @@
-<!DOCTYPE html>
-<html lang="pt-br" data-bs-theme="auto">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Cafeteria São Luís Palmares</title>
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/cover/"
+    />
     <script src="assets/js/color-modes.js"></script>
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="shortcut icon" href="img/cafeteria-logo.jpg" type="image/x-icon">
-</head>
-<body>
-     <div class="container">
+    <link href="style/cover.css" rel="stylesheet" />
+    <style>
+      .container {
+        margin-bottom: 50px;
+      }
+      .lead {
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body class="d-flex h-100 text-center text-bg-dark">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" style="padding: 0;">
+      <div class="container">
         <header
           class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
         >
@@ -30,8 +43,12 @@
           </ul>
         </header>
       </div>
-
-
+      <main class="px-3">
+        <h1>Saiba mais sobre o site</h1>
+        <p class="lead">
+          O site foi feito para treinar o HTML e CSS com Bootstrap. As fotos foram feitas com IA, então nada que tem nelas são reais. <br> Esse projeto foi feito por um aluno que quer muito se tornar um desenvolvedor back-end, <br> mas tem uma base no front-end.
+        </p>
+      </main>
       <div class="container">
       <footer
         class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
@@ -61,10 +78,10 @@
         </ul>
       </footer>
       </div>
-
+    </div>
     <script
       src="assets/dist/js/bootstrap.bundle.min.js"
       class="astro-vvvwv3sm"
     ></script>
-</body>
+  </body>
 </html>
