@@ -4,92 +4,307 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prática</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        header {
-            background-color: gray;
-            display: flex;
-            flex-flow: row wrap;
-            min-height: 50px;
-        }
-
-        header h1 {
-            font-size: 2em;
-            margin-left: 50px;
-            margin-right: 70px;
-            flex: 0 0 auto;
-        }
-
-        nav {
-            display: flex;
-            flex-flow: row nowrap;
-            flex: 0 0 auto;
-        }
-
-        header a {
-            text-decoration: none;
-            color: black;
-            font-size: 1.5em;
-            padding: 5px;
-            margin-right: 10px;
-            flex: auto;
-        }
-
-        header a:hover {
-            background-color: white;
-            border-radius: 10px;
-        }
-
-        main {
-            max-width: 800px;
-            margin: auto;
-        }
-
-        #container {
-            display: flex;
-        }
-
-        .container a {
-            text-decoration: none;
-            font-size: 1.2em;
-            margin: 10px;
-            flex: auto;
-        }
-    </style>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
     <header>
-        <h1>Buuz</h1>
+        <h1>Vasco da Gama</h1>
         <nav>
-            <a href="#">Início</a>
-            <a href="#">Loja</a>
-            <a href="#">Sobre</a>
-            <a href="#">Contato</a>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Contatos</a></li>
+                <li><a href="#">Sobre</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <h2>Notícias</h2>
-        <div id="container">
-            <div class="container">
-                <img src="" alt="">
-                <a href="">Carleto anuncia quinteto inicial para amisto contra o Panamá</a>
+        <div class="apresentacao">
+            <div class="apresentacao-info">
+                <h2>Time do Vasco em 2026</h2>
+                <p>Nesse site tem todos os jogadores do time profissional do Vasco da Gama do (a partir de 21/09/2026).</p>
             </div>
-            <div class="container">
-                <img src="" alt="">
-                <a href="">Carleto anuncia quinteto inicial para amisto contra o Panamá</a>    
+            <div class="apresentacao-foto">
+                <img src="img/vasco-250.webp" alt="">
             </div>
-            <div class="container">
+        </div>
+        <div class="container-jogadores">
+            <div class="jogador-foto">
                 <img src="" alt="">
-                <a href="">Carleto anuncia quinteto inicial para amisto contra o Panamá</a>
             </div>
-            <div class="container">
+            <div class="info-jogador">
+                <p>Léo Jardim</p>
+                <p>Posição: Goleiro</p>
+                <p>Data de nascimento: 20/03/1995</p>
+            </div>
+
+            <div class="jogador-foto">
                 <img src="" alt="">
-                <a href="">Carleto anuncia quinteto inicial para amisto contra o Panamá</a>
+            </div>
+            <div class="info-jogador">
+                <p>Daniel Fuzato</p>
+                <p>Posição: Goleiro</p>
+                <p>Data de nascimento: 04/07/1997</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Pablo</p>
+                <p>Posição: Goleiro</p>
+                <p>Data de nascimento: 11/02/2003</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>João Vitor</p>
+                <p>Posição: Lateral-direito</p>
+                <p>Data de nascimento: 29/05/2005</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Puma Rodríguez</p>
+                <p>Posição: Lateral-direito</p>
+                <p>Data de nascimento: 14/03/1997</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Paulo Henrique</p>
+                <p>Posição: Lateral-direito</p>
+                <p>Data de nascimento: 25/07/1996</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Alan Saldívia</p>
+                <p>Posição: Zagueiro</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Carlos Cuesta</p>
+                <p>Posição: Zagueiro</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Robert Renan</p>
+                <p>Posição: Zagueiro</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Walace Fernandes</p>
+                <p>Posição: Zagueiro</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Lucas Freitas</p>
+                <p>Posição: Zagueiro</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Gabriel Pereira</p>
+                <p>Posição: Zagueiro</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Paulinho</p>
+                <p>Posição: Lateral-esquerdo</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Cuiabano</p>
+                <p>Posição: Lateral-esquerdo</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Lucas Piton</p>
+                <p>Lateral-esquerdo</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Santiago Sosa</p>
+                <p>Volante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Cauan Barros</p>
+                <p>Volante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Thiago Mendes</p>
+                <p>Volante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Ramon Rique</p>
+                <p>Volante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Mateus Carvalho</p>
+                <p>Volante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Johan Rojas</p>
+                <p>Meio-Campista</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Alan Lescano</p>
+                <p>Meio-Campista</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Colidio</p>
+                <p>Atacante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Bruno Duarte</p>
+                <p>Atacante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Spinelli</p>
+                <p>Atacante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Marino</p>
+                <p>Atacante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Brenner</p>
+                <p>Atacante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Andrés Gomez</p>
+                <p>Atacante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>David</p>
+                <p>Atacante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Nuno Moreira</p>
+                <p>Atacante</p>
+                <p>Data de nascimento: 25/05/2008</p>
+            </div>
+
+            <div class="jogador-foto">
+                <img src="" alt="">
+            </div>
+            <div class="info-jogador">
+                <p>Adson</p>
+                <p>Atacante</p>
+                <p>Data de nascimento: 25/05/2008</p>
             </div>
         </div>
     </main>
